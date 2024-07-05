@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header { /*메인화면 사진*/
+  padding: 10px;
+  height: 600px;
+  background-image: url('https://www.samsungsem.com/files/imageView.do?key=ade85875-6013-4f59-b4e8-e7be3b82a160');
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar {
+  display: flex;
+}
+.menu {
+  margin: 0 40px 0 0; /* 좌우 마진을 10px로 설정 */
+}
+.logo{
+  height: 80px;
+  width: 500px;
+}
+.logoimg {/*로고 이미지 주소*/
+  background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/5140d4166670193.Y3JvcCw1NTksNDM3LDI1MywyNTc1.jpg');
+  background-position: center; /* 배경 이미지를 가운데로 정렬 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 60%;
+}
+.top-nav {
+  display: flex;
+}
+.top-nav > li > a {
+  text-decoration: none; /* 밑줄 제거 */
+  color: inherit; /* 텍스트 색상 상속 (기본 색상 유지) */
+}
+ul > li {
+  margin: 0 60px 0 0;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+}
